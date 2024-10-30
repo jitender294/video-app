@@ -3,12 +3,11 @@ import React, { useState } from 'react';
 
 const Videos = () => {
   const videosArr = [
-    'https://bit.ly/40lJ3pu',
-    'https://bit.ly/3YrjEs9',
-    'https://bit.ly/4fkdO2v',
-    'https://bit.ly/3YHcRMi',
-    'https://bit.ly/4f6IsNe',
-    'https://bit.ly/4f0lFT7' ];
+    'https://rococo-salamander-b3c33d.netlify.app/videoplayback%20(1).mp4',
+    'https://venerable-trifle-c3c431.netlify.app/Disk%20Brake%20VS%20Drum%20Brake%20Which%20System%20Is%20Best%20In%20Motorcycle.mp4',
+    'https://glittering-cobbler-613153.netlify.app/videoplayback.mp4',
+    'https://wonderful-baklava-20f13a.netlify.app/videoplayback.mp4',
+    ];
 
   const [videoSrc, setVideoSrc] = useState(videosArr[0]);
 
